@@ -259,7 +259,7 @@ nav li:hover{
   }
   
   
-  @media (max-width:391px){
+  @media (max-width:392px){
     .checkbtn{
         display: block;
     }
