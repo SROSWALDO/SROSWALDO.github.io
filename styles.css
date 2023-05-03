@@ -259,7 +259,7 @@ nav li:hover{
   }
   
   
-  @media (max-width:400px){
+  @media (max-width:600px){
     .checkbtn{
         display: block;
         margin-right: 50px;
@@ -296,19 +296,21 @@ nav li:hover{
     }
 
     #projects h1{
-        font-size: 50px;
-        width: 90%;
+        font-size: 40px;
+        width: 80%;
         text-align: center;
+        margin: auto;
     }
 
    #projects{
-    height: 190vh;
+    height: 210vh;
    }
 
    .project-image{
     width: 80%;
-    height: 80%;
-    margin: 10%;
+    height: 200px;
+    margin: 0 10%;
+    object-fit: contain;
    }
     
    .projects-title{
@@ -318,6 +320,7 @@ nav li:hover{
 
    #contact h2{
     font-size: 50px;
+    text-align: center;
    }
 
    #contact p{
