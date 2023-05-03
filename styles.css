@@ -259,9 +259,10 @@ nav li:hover{
   }
   
   
-  @media (max-width:392px){
+  @media (max-width:400px){
     .checkbtn{
         display: block;
+        margin-right: 50px;
     }
 
     ul{
@@ -272,8 +273,7 @@ nav li:hover{
         to top right,
         rgb(15, 5, 92) 30%,
         rgb(155, 15, 182),
-        rgb(205, 18, 183)
-    );
+        rgb(205, 18, 183));
         top: 80px;
         left: -100%;
         text-align: center;
@@ -295,16 +295,34 @@ nav li:hover{
         left: 0;
     }
 
+    #projects h1{
+        font-size: 50px;
+        width: 90%;
+        text-align: center;
+    }
+
    #projects{
     height: 190vh;
    }
 
    .project-image{
-    width: 80%;
+    width: 75%;
     height: 80%;
     margin: 10%;
    }
     
+   .projects-title{
+    text-align: center;
+   }
 
+
+   #contact h2{
+    font-size: 50px;
+   }
+
+   #contact p{
+    padding-top: 25px;
+    font-size: 20px;
+   }
 
   }
